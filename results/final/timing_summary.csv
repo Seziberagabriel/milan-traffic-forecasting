@@ -1,0 +1,6 @@
+model,runs,train_mean_s,train_std_s,epochs_mean,seconds_per_epoch,inference_week_mean_s,inference_ms_per_step,n_params
+Persistence,3,0.0,0.0,,,0.0,0.0,
+Seasonal naive (1 week),3,0.0,0.0,,,0.0,0.0,
+SARIMAX-Fourier,3,25.0396,0.5201,,,0.2169,0.2152,18.0
+LSTM,9,17.7799,3.4847,56.6667,0.3137,0.0122,0.0121,18753.0
+TCN,9,111.3644,28.9258,19.0,5.8688,0.2288,0.227,35137.0

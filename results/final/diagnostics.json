@@ -1,0 +1,281 @@
+{
+  "5161": {
+    "week_to_week": {
+      "val_total_over_previous_week": 1.0539422291813119,
+      "test_total_over_val_week": 0.8516051253232811,
+      "val_daily_ratio_vs_previous_week_MonToSun": [
+        1.141,
+        1.117,
+        1.102,
+        1.179,
+        1.033,
+        0.92,
+        1.003
+      ],
+      "test_daily_ratio_vs_val_week_MonToSun": [
+        0.801,
+        1.019,
+        0.899,
+        0.764,
+        0.856,
+        0.824,
+        0.826
+      ],
+      "mean_abs_weekly_change_pct_val": 12.629589146483317,
+      "mean_abs_weekly_change_pct_test": 20.811016552368685
+    },
+    "error_profile": {
+      "persistence": {
+        "bias_mean_error": 0.11467817094590929,
+        "bias_pct_of_mean_traffic": 0.007935386349361697,
+        "corr_pred_t_vs_actual_t": 0.9950968837109037,
+        "corr_pred_t_vs_actual_t_minus_1": 1.0,
+        "MAE_on_ramps_top10pct_changes": 316.67847873196746,
+        "MAE_other_steps": 67.87189450837023,
+        "MAE_daytime_08_22": 134.7960942586263,
+        "MAE_night": 34.01007439749581,
+        "MAE_weekdays": 88.36352886623807,
+        "MAE_weekend_Dec21_22": 103.89789544211493,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3393914767659399
+      },
+      "seasonal_naive": {
+        "bias_mean_error": 251.82179560737003,
+        "bias_pct_of_mean_traffic": 17.425314886448817,
+        "corr_pred_t_vs_actual_t": 0.9761978874279749,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9769643328842955,
+        "MAE_on_ramps_top10pct_changes": 491.79553026255996,
+        "MAE_other_steps": 279.4761729634715,
+        "MAE_daytime_08_22": 453.2226107071857,
+        "MAE_night": 87.28891032990956,
+        "MAE_weekdays": 271.8729194217258,
+        "MAE_weekend_Dec21_22": 372.94352587064105,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3312804169275308
+      },
+      "sarimax": {
+        "bias_mean_error": 0.06887773614243771,
+        "bias_pct_of_mean_traffic": 0.004766133281088347,
+        "corr_pred_t_vs_actual_t": 0.9962330140447438,
+        "corr_pred_t_vs_actual_t_minus_1": 0.998487863056637,
+        "MAE_on_ramps_top10pct_changes": 247.03006965336547,
+        "MAE_other_steps": 59.075676871387046,
+        "MAE_daytime_08_22": 113.80150902991967,
+        "MAE_night": 27.658068208917143,
+        "MAE_weekdays": 73.4545800847077,
+        "MAE_weekend_Dec21_22": 89.04298019565421,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3690686278791204
+      },
+      "lstm": {
+        "bias_mean_error": 41.62656673667326,
+        "bias_pct_of_mean_traffic": 2.8804338849177786,
+        "corr_pred_t_vs_actual_t": 0.9922683180585115,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9936302556653313,
+        "MAE_on_ramps_top10pct_changes": 247.5941100041918,
+        "MAE_other_steps": 98.38458496766737,
+        "MAE_daytime_08_22": 170.37107713176022,
+        "MAE_night": 33.484834101482555,
+        "MAE_weekdays": 103.25393265008974,
+        "MAE_weekend_Dec21_22": 138.5381672501148,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.37610628027973847
+      },
+      "tcn": {
+        "bias_mean_error": 26.79425061949458,
+        "bias_pct_of_mean_traffic": 1.854081983114311,
+        "corr_pred_t_vs_actual_t": 0.9916545042560044,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9933571200597373,
+        "MAE_on_ramps_top10pct_changes": 254.80386575000836,
+        "MAE_other_steps": 98.39217654422384,
+        "MAE_daytime_08_22": 170.04127513340495,
+        "MAE_night": 35.696725685523205,
+        "MAE_weekdays": 109.84961968127533,
+        "MAE_weekend_Dec21_22": 124.60127915223484,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.38280907162073596
+      }
+    }
+  },
+  "5059": {
+    "week_to_week": {
+      "val_total_over_previous_week": 1.1101539550939752,
+      "test_total_over_val_week": 0.8469194056960669,
+      "val_daily_ratio_vs_previous_week_MonToSun": [
+        1.051,
+        1.105,
+        1.105,
+        1.257,
+        1.077,
+        1.099,
+        1.073
+      ],
+      "test_daily_ratio_vs_val_week_MonToSun": [
+        0.987,
+        0.915,
+        0.931,
+        0.74,
+        0.831,
+        0.784,
+        0.748
+      ],
+      "mean_abs_weekly_change_pct_val": 13.610713983510362,
+      "mean_abs_weekly_change_pct_test": 20.542250879070068
+    },
+    "error_profile": {
+      "persistence": {
+        "bias_mean_error": 0.14475341070265973,
+        "bias_pct_of_mean_traffic": 0.01143897155149061,
+        "corr_pred_t_vs_actual_t": 0.9925684301509433,
+        "corr_pred_t_vs_actual_t_minus_1": 1.0,
+        "MAE_on_ramps_top10pct_changes": 264.84425429542466,
+        "MAE_other_steps": 61.10228109307168,
+        "MAE_daytime_08_22": 111.13853397499136,
+        "MAE_night": 40.04662061418806,
+        "MAE_weekdays": 84.55371428595649,
+        "MAE_weekend_Dec21_22": 73.92487621307373,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3231155274007014
+      },
+      "seasonal_naive": {
+        "bias_mean_error": 228.7282888927157,
+        "bias_pct_of_mean_traffic": 18.074989576855792,
+        "corr_pred_t_vs_actual_t": 0.9707726148784513,
+        "corr_pred_t_vs_actual_t_minus_1": 0.972068192993606,
+        "MAE_on_ramps_top10pct_changes": 367.4794734539372,
+        "MAE_other_steps": 247.97595685897878,
+        "MAE_daytime_08_22": 370.06647112580384,
+        "MAE_night": 105.7869873046875,
+        "MAE_weekdays": 233.67812192704943,
+        "MAE_weekend_Dec21_22": 325.6297635502285,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.317691719160776
+      },
+      "sarimax": {
+        "bias_mean_error": -2.2693026665272233,
+        "bias_pct_of_mean_traffic": -0.17932902940331008,
+        "corr_pred_t_vs_actual_t": 0.9948810790377058,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9975498361909317,
+        "MAE_on_ramps_top10pct_changes": 188.9706104356704,
+        "MAE_other_steps": 51.80668646204549,
+        "MAE_daytime_08_22": 90.19338243172604,
+        "MAE_night": 31.049970012435868,
+        "MAE_weekdays": 67.09913742898138,
+        "MAE_weekend_Dec21_22": 61.678185160456174,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.33934354291247437
+      },
+      "lstm": {
+        "bias_mean_error": 81.12604824767406,
+        "bias_pct_of_mean_traffic": 6.4108925204962155,
+        "corr_pred_t_vs_actual_t": 0.9924577794580524,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9936677285726646,
+        "MAE_on_ramps_top10pct_changes": 189.0498490817922,
+        "MAE_other_steps": 95.8168627546367,
+        "MAE_daytime_08_22": 155.07399669207453,
+        "MAE_night": 35.27718862089684,
+        "MAE_weekdays": 103.00205743490407,
+        "MAE_weekend_Dec21_22": 110.5501663978665,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.33646689377723066
+      },
+      "tcn": {
+        "bias_mean_error": 44.68095235495101,
+        "bias_pct_of_mean_traffic": 3.5308607956164777,
+        "corr_pred_t_vs_actual_t": 0.9919112740443535,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9931872311820827,
+        "MAE_on_ramps_top10pct_changes": 178.529179943821,
+        "MAE_other_steps": 81.48280676211732,
+        "MAE_daytime_08_22": 130.92806553453758,
+        "MAE_night": 35.59678660299578,
+        "MAE_weekdays": 86.61046563569815,
+        "MAE_weekend_Dec21_22": 102.69728350647101,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3349628044011698
+      }
+    }
+  },
+  "5259": {
+    "week_to_week": {
+      "val_total_over_previous_week": 1.0803016701290065,
+      "test_total_over_val_week": 0.8739728342482981,
+      "val_daily_ratio_vs_previous_week_MonToSun": [
+        1.238,
+        1.084,
+        1.118,
+        1.095,
+        1.029,
+        0.971,
+        0.897
+      ],
+      "test_daily_ratio_vs_val_week_MonToSun": [
+        0.946,
+        0.969,
+        0.919,
+        0.841,
+        0.894,
+        0.567,
+        0.708
+      ],
+      "mean_abs_weekly_change_pct_val": 12.76541009376852,
+      "mean_abs_weekly_change_pct_test": 16.618548616628022
+    },
+    "error_profile": {
+      "persistence": {
+        "bias_mean_error": 0.04972625914074126,
+        "bias_pct_of_mean_traffic": 0.003930623733523979,
+        "corr_pred_t_vs_actual_t": 0.9952231501752025,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9999999999999998,
+        "MAE_on_ramps_top10pct_changes": 259.3844982184986,
+        "MAE_other_steps": 55.542898680698514,
+        "MAE_daytime_08_22": 99.38843105601616,
+        "MAE_night": 43.178204672677175,
+        "MAE_weekdays": 89.49097290039063,
+        "MAE_weekend_Dec21_22": 42.158829636043976,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.33964208244896293
+      },
+      "seasonal_naive": {
+        "bias_mean_error": 182.42760332803877,
+        "bias_pct_of_mean_traffic": 14.420032386944564,
+        "corr_pred_t_vs_actual_t": 0.9820016008186025,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9799433144858913,
+        "MAE_on_ramps_top10pct_changes": 262.2548229859607,
+        "MAE_other_steps": 204.4489399027798,
+        "MAE_daytime_08_22": 237.59192276000977,
+        "MAE_night": 171.94970245361327,
+        "MAE_weekdays": 190.51031549241807,
+        "MAE_weekend_Dec21_22": 259.56770298216077,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3117214024833096
+      },
+      "sarimax": {
+        "bias_mean_error": -0.6069031914711569,
+        "bias_pct_of_mean_traffic": -0.0479728040992632,
+        "corr_pred_t_vs_actual_t": 0.9963289153544848,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9988536249785143,
+        "MAE_on_ramps_top10pct_changes": 198.17709487682217,
+        "MAE_other_steps": 52.41511635010186,
+        "MAE_daytime_08_22": 86.88159324336227,
+        "MAE_night": 39.21433401191522,
+        "MAE_weekdays": 77.62331679469352,
+        "MAE_weekend_Dec21_22": 40.51253131917391,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3393070583746308
+      },
+      "lstm": {
+        "bias_mean_error": 26.88863296661882,
+        "bias_pct_of_mean_traffic": 2.125418254397001,
+        "corr_pred_t_vs_actual_t": 0.995831653208801,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9961719638112077,
+        "MAE_on_ramps_top10pct_changes": 148.2608852659778,
+        "MAE_other_steps": 65.43059427182729,
+        "MAE_daytime_08_22": 94.61469636633667,
+        "MAE_night": 44.4915641738218,
+        "MAE_weekdays": 82.12347701035472,
+        "MAE_weekend_Dec21_22": 52.74651030887401,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.3443408980069611
+      },
+      "tcn": {
+        "bias_mean_error": 44.89280687591661,
+        "bias_pct_of_mean_traffic": 3.548562373685846,
+        "corr_pred_t_vs_actual_t": 0.9956843455664853,
+        "corr_pred_t_vs_actual_t_minus_1": 0.9956362793992407,
+        "MAE_on_ramps_top10pct_changes": 156.71558272445537,
+        "MAE_other_steps": 72.18193949132532,
+        "MAE_daytime_08_22": 106.9607976768151,
+        "MAE_night": 43.819866523416145,
+        "MAE_weekdays": 91.32094405933746,
+        "MAE_weekend_Dec21_22": 53.97990712180237,
+        "share_of_total_abs_error_from_worst_10pct_steps": 0.34974052300013114
+      }
+    }
+  }
+}

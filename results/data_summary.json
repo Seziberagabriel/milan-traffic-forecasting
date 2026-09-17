@@ -1,0 +1,25 @@
+{
+  "n_files": 62,
+  "matrix_shape": [
+    8928,
+    10000
+  ],
+  "matrix_mb": 340.6,
+  "peak_rss_mb_during_build": 422.2,
+  "final_rss_mb": 424.1,
+  "build_seconds": 421.4,
+  "rows_outside_time_range_dropped": 0,
+  "missing_slots_interpolated": 0,
+  "top3_squares": [
+    5161,
+    5059,
+    5259
+  ],
+  "top3_totals": [
+    12740067.0,
+    11170842.0,
+    10485784.0
+  ],
+  "quietest_local_hour": 5,
+  "busiest_local_hour": 17
+}

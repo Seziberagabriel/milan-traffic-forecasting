@@ -1,0 +1,6 @@
+model,type,n_runs,MAE_mean,MAE_std,RMSE_mean,RMSE_std,MAPE_%_mean,MAPE_%_std
+Persistence,reference,1,81.517,0.0,114.375,0.0,7.959,0.0
+Seasonal naive (1 week),reference,1,259.95,0.0,361.12,0.0,25.731,0.0
+SARIMAX-Fourier,main,1,65.55,0.0,94.843,0.0,6.261,0.0
+LSTM,main,3,100.033,11.13,145.356,16.009,9.002,0.879
+TCN,main,3,97.493,11.917,139.438,19.449,9.078,0.51

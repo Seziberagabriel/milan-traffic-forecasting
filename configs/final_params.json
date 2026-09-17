@@ -1,0 +1,6 @@
+{
+  "_note": "Selected from results/experiments.csv (validation week Dec 9-15, square 5161). SARIMAX: exp 26. LSTM: exps 29-31 (3 seeds). TCN: exps 4, 18, 19 (3 seeds).",
+  "sarimax": {"p": 3, "q": 0, "daily_k": 4, "weekly_k": 2, "holiday": true, "log": true, "maxiter": 200},
+  "lstm": {"window": 36, "hidden": 64, "layers": 1, "dropout": 0.0, "lr": 0.0003, "batch": 128, "max_epochs": 80, "patience": 10, "weekly_lag": true},
+  "tcn": {"window": 144, "channels": 32, "kernel": 3, "levels": 6, "dropout": 0.1, "lr": 0.001, "batch": 128, "max_epochs": 40, "patience": 6, "weekly_lag": true}
+}

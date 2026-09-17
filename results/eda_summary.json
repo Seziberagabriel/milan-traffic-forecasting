@@ -1,0 +1,249 @@
+{
+  "distribution": {
+    "n_squares": 10000,
+    "squares_with_zero_total": 0,
+    "mean": 555289.4300051178,
+    "median": 277871.390625,
+    "mean_over_median": 1.9983684853490584,
+    "std": 892595.8068120347,
+    "skewness": 4.265382234258158,
+    "kurtosis": 25.515556558128964,
+    "p01": 18634.7421875,
+    "p25": 118101.9609375,
+    "p75": 577894.796875,
+    "p99": 4698735.44,
+    "max": 12740067.0,
+    "max_over_median": 45.84878987125845,
+    "share_top_1pct": 0.11049206609143365,
+    "share_top_10pct": 0.4838853796434115,
+    "squares_for_50pct_of_traffic": 1075,
+    "gini": 0.608080045538631
+  },
+  "five_squares": {
+    "5161": {
+      "label": "Top 1",
+      "total_full_period": 12740060.355232239,
+      "mean_2w": 1483.5451838288989,
+      "cv_2w": 0.8849091663536106,
+      "weekend_over_weekday_mean": 1.261809777371337,
+      "weekday_peak_hour": 14,
+      "weekday_min_hour": 5,
+      "night_over_day_ratio": 0.07428698813839917,
+      "max_over_mean_2w": 5.422194349173084,
+      "zero_fraction_2w": 0.0
+    },
+    "5059": {
+      "label": "Top 2",
+      "total_full_period": 11170854.376701355,
+      "mean_2w": 1330.6216381542267,
+      "cv_2w": 0.7157573599597209,
+      "weekend_over_weekday_mean": 0.7723033775938154,
+      "weekday_peak_hour": 14,
+      "weekday_min_hour": 3,
+      "night_over_day_ratio": 0.1304459118391696,
+      "max_over_mean_2w": 3.143459239558597,
+      "zero_fraction_2w": 0.0
+    },
+    "5259": {
+      "label": "Top 3",
+      "total_full_period": 10485779.575927734,
+      "mean_2w": 1293.4971824146453,
+      "cv_2w": 0.8787619949077781,
+      "weekend_over_weekday_mean": 0.3355777281320149,
+      "weekday_peak_hour": 13,
+      "weekday_min_hour": 5,
+      "night_over_day_ratio": 0.23321803035731822,
+      "max_over_mean_2w": 3.2956353345690785,
+      "zero_fraction_2w": 0.0
+    },
+    "4159": {
+      "label": "Special",
+      "total_full_period": 2454134.489364624,
+      "mean_2w": 311.34642298259433,
+      "cv_2w": 0.6078852734868508,
+      "weekend_over_weekday_mean": 0.5186856883857367,
+      "weekday_peak_hour": 12,
+      "weekday_min_hour": 4,
+      "night_over_day_ratio": 0.31490235605901157,
+      "max_over_mean_2w": 2.733455051398796,
+      "zero_fraction_2w": 0.0
+    },
+    "4556": {
+      "label": "Special",
+      "total_full_period": 4574671.378967285,
+      "mean_2w": 592.6982607311672,
+      "cv_2w": 0.43125006115332587,
+      "weekend_over_weekday_mean": 1.1064973336463417,
+      "weekday_peak_hour": 22,
+      "weekday_min_hour": 5,
+      "night_over_day_ratio": 0.5317940059903623,
+      "max_over_mean_2w": 3.1529398130071256,
+      "zero_fraction_2w": 0.0
+    }
+  },
+  "analysis_A_autocorrelation": {
+    "n_obs": 6480,
+    "acf_lag1_10min": 0.9843626295639363,
+    "acf_lag6_1h": 0.9351702701505771,
+    "acf_lag36_6h": -0.015690603152905283,
+    "acf_lag72_12h": -0.7445237412843508,
+    "acf_lag144_1day": 0.8698205185459094,
+    "acf_lag1008_1week": 0.7978868246003479,
+    "pacf_first_10": [
+      0.984,
+      0.283,
+      0.088,
+      -0.115,
+      -0.126,
+      -0.135,
+      -0.135,
+      -0.116,
+      -0.104,
+      -0.132
+    ],
+    "pacf_significant_lags_upto48": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      22,
+      23,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      36,
+      37,
+      48
+    ],
+    "diff144_acf_lag1": 0.8476335923503362,
+    "diff144_acf_lag144": -0.14841647021785773,
+    "diff144_acf_lag1008": 0.552513579587154
+  },
+  "analysis_B_decomposition": {
+    "seasonal_strength_daily": 0.9400080663665683,
+    "seasonal_strength_weekly": 0.7229795264243806,
+    "trend_strength": 0.1108330669497064,
+    "variance_share": {
+      "trend": 0.006492544808107884,
+      "daily": 0.6786729211111424,
+      "weekly": 0.13369317426641256,
+      "resid": 0.04300412129171205
+    },
+    "stationarity_raw": {
+      "adf_stat": -17.116195104309984,
+      "adf_p": 7.308806753302642e-30,
+      "adf_lags": 35,
+      "kpss_stat": 0.14169146408145852,
+      "kpss_p": 0.1
+    },
+    "stationarity_diff144": {
+      "adf_stat": -10.339063813132036,
+      "adf_p": 2.7151985551482316e-18,
+      "adf_lags": 19,
+      "kpss_stat": 0.05247004809496123,
+      "kpss_p": 0.1
+    },
+    "stationarity_diff1_diff144": {
+      "adf_stat": -17.78051945345057,
+      "adf_p": 3.278584844945312e-30,
+      "adf_lags": 23,
+      "kpss_stat": 0.007852862416985872,
+      "kpss_p": 0.1
+    },
+    "n_anomalies_absz_gt4": 1477,
+    "top_anomalies": [
+      {
+        "time": "2013-11-02 13:50:00+01:00",
+        "robust_z": 105.42,
+        "observed": 8044.1
+      },
+      {
+        "time": "2013-12-01 14:20:00+01:00",
+        "robust_z": 72.98,
+        "observed": 5942.6
+      },
+      {
+        "time": "2013-12-15 18:20:00+01:00",
+        "robust_z": -67.05,
+        "observed": 4344.7
+      },
+      {
+        "time": "2013-11-03 16:40:00+01:00",
+        "robust_z": -66.04,
+        "observed": 3923.0
+      },
+      {
+        "time": "2013-12-01 18:30:00+01:00",
+        "robust_z": 63.75,
+        "observed": 6166.8
+      },
+      {
+        "time": "2013-12-01 16:20:00+01:00",
+        "robust_z": 61.21,
+        "observed": 6736.9
+      },
+      {
+        "time": "2013-12-01 11:40:00+01:00",
+        "robust_z": 58.99,
+        "observed": 3816.3
+      },
+      {
+        "time": "2013-11-09 11:50:00+01:00",
+        "robust_z": -57.89,
+        "observed": 2591.7
+      },
+      {
+        "time": "2013-12-08 11:40:00+01:00",
+        "robust_z": 57.28,
+        "observed": 3835.7
+      },
+      {
+        "time": "2013-11-01 18:00:00+01:00",
+        "robust_z": 57.18,
+        "observed": 4887.7
+      },
+      {
+        "time": "2013-11-16 11:50:00+01:00",
+        "robust_z": -53.7,
+        "observed": 2298.5
+      },
+      {
+        "time": "2013-12-01 18:00:00+01:00",
+        "robust_z": 53.51,
+        "observed": 6442.5
+      },
+      {
+        "time": "2013-12-08 18:20:00+01:00",
+        "robust_z": -53.32,
+        "observed": 4193.6
+      },
+      {
+        "time": "2013-12-01 16:40:00+01:00",
+        "robust_z": 52.95,
+        "observed": 6753.3
+      },
+      {
+        "time": "2013-11-01 17:30:00+01:00",
+        "robust_z": 51.68,
+        "observed": 4536.0
+      }
+    ]
+  }
+}

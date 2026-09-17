@@ -1,0 +1,5 @@
+Wall-clock times measured with time.perf_counter() in a single Python process, CPU only.
+Training time: fitting on the training split only (Nov 1 - Dec 8). For LSTM/TCN this includes every epoch until early stopping on the validation week (Dec 9 - 15). SARIMAX: one fit per area. LSTM/TCN: one training per seed [42, 1, 2] per area (9 runs per model). Reported as mean and standard deviation over all runs of a model.
+Inference time: producing all 1008 one-step-ahead forecasts of the test week, repeated 5 times per run after a warm-up call; mean reported (per week and per step).
+Other applications were closed during the measurements.
+Hardware: {"cpu_model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz", "physical_cores": 4, "logical_cores": 8, "ram_gb": 7.8, "os": "Windows-10-10.0.26200-SP0", "python": "3.11.9", "torch": "2.14.0+cpu", "torch_threads": 4, "gpu": "none (CPU only)"}

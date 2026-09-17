@@ -1,0 +1,7 @@
+square,model,mean_with_weekly_lag,std_with_weekly_lag,mean_without_weekly_lag,std_without_weekly_lag,MAE_change_when_removed
+5059,LSTM,100.03,11.13,84.43,4.6,-15.6
+5059,TCN,97.49,11.92,89.09,12.66,-8.41
+5161,LSTM,109.01,8.5,109.8,8.19,0.79
+5161,TCN,112.24,9.81,108.77,15.41,-3.47
+5259,LSTM,74.0,1.14,73.27,0.87,-0.72
+5259,TCN,81.43,1.94,83.0,12.83,1.58

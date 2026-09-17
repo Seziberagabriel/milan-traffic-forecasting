@@ -1,0 +1,11 @@
+{
+  "cpu_model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+  "physical_cores": 4,
+  "logical_cores": 8,
+  "ram_gb": 7.8,
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "torch": "2.14.0+cpu",
+  "torch_threads": 4,
+  "gpu": "none (CPU only)"
+}
