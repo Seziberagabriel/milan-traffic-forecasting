@@ -12,6 +12,7 @@ with different traffic characteristics?
 
 ## Repository structure
 
+```
 
 milan-traffic-forecasting/
 ├── configs/
@@ -35,6 +36,8 @@ milan-traffic-forecasting/
 ├── figures/                   # all figures used in the report
 ├── data/                      # NOT in git (see "Data")
 └── requirements.txt
+
+```
 
 ## Setup
 
