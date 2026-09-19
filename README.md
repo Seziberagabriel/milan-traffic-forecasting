@@ -1,21 +1,18 @@
-# Mobile Network Traffic Forecasting — Milan Telecom Dataset
+# Mobile Network Traffic Forecasting Milan Telecom Dataset
 
-Comparative study of three sequential models — **SARIMAX with Fourier terms**, **LSTM** and
-**TCN** — for one-step-ahead forecasting of 10-minute Internet traffic in the three busiest
+Comparative study of three sequential models **SARIMAX with Fourier terms**, **LSTM** and
+**TCN** for one-step-ahead forecasting of 10-minute Internet traffic in the three busiest
 areas of Milan (squares 5161, 5059, 5259), evaluated on the week of 16–22 December 2013.
 
 **Research question:** How do different sequential models compare for one-step-ahead mobile
 network traffic forecasting, and how does their performance vary across geographical areas
 with different traffic characteristics?
 
-- Report: *link / file name*
-- Video demonstration: *link*
-
----
+- Demo Video: *https://youtu.be/3TILXM5ivdE*
 
 ## Repository structure
 
-```
+
 milan-traffic-forecasting/
 ├── configs/
 │   └── final_params.json      # hyperparameters selected during tuning
@@ -38,7 +35,6 @@ milan-traffic-forecasting/
 ├── figures/                   # all figures used in the report
 ├── data/                      # NOT in git (see "Data")
 └── requirements.txt
-```
 
 ## Setup
 
@@ -48,7 +44,6 @@ Tested on Windows 11, Python 3.11.9, CPU only (Intel Core i5-1135G7, 4 cores / 8
 python -m venv .venv
 .venv\Scripts\activate            # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-```
 
 Exact package versions used for the reported results are listed in `requirements-lock.txt`
 (`pip install -r requirements-lock.txt` for an exact reproduction).
@@ -118,4 +113,4 @@ Full tables (MAE, RMSE, MAPE), timing statistics and the hardware description ar
 
 ## Author
 
-Gabriel Sezibera Tuyisingize — Formative Assignment , September 2026.
+Gabriel Sezibera Tuyisingize Formative 1 Assignment , September 2026.
